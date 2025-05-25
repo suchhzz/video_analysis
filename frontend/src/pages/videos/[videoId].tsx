@@ -1,6 +1,6 @@
 import VideoSection from '@/components/Video/VideoSection'
 import VideoSidebar from '@/components/Video/VideoSidebar'
-import VideoInfoCard from '@/components/VideoInfoCard'
+import VideoInfoCard from '@/components/Video/VideoInfoCard'
 import { Container, Box, Typography } from '@mui/material'
 
 export default function VideoId() {

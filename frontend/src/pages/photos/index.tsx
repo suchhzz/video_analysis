@@ -5,7 +5,7 @@ import VideoInfoCard from '@/components/Video/VideoInfoCard'
 import { Container, Box, Typography } from '@mui/material'
 import ContentLayout from '@/components/layouts/ContentLayout'
 
-export default function Video() {
+export default function Photo() {
     return (
         <MainLayout>
             <ContentLayout
