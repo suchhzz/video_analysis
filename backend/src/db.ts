@@ -1,10 +1,4 @@
-import { Sequelize } from 'sequelize';
-
-const sequelize = new Sequelize('video_analysis', 'postgres', 'root', {
-    host: 'localhost',
-    dialect: 'postgres',
-});
-
+import sequelize from "./sequelize";
 
 (async () => {
     try {
