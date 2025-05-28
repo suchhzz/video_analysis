@@ -7,13 +7,19 @@ import ContentLayout from '@/components/layouts/ContentLayout'
 import PhotoSection from '@/components/Photo/PhotoSection'
 import PhotoSidebar from '@/components/Photo/PhotoSidebar'
 import PhotoUpload from '@/components/Photo/PhotoUpload'
+import { useRouter } from 'next/router'
 
-export default function Photo() {
+export default function PhotoById() {
+
+    const router = useRouter();
+
+    console.log(router.query);
+
     return (
         <MainLayout>
             <ContentLayout
-                content={<PhotoSection />}
-                sidebar={<PhotoSidebar />}
+                content={<PhotoSection isImageShown={true} />}
+                sidebar={<PhotoSidebar isImageShown={true} />}
             />
         </MainLayout>
     )
